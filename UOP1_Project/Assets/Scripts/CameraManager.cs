@@ -7,9 +7,9 @@ using System;
 public class CameraManager : MonoBehaviour
 {
 	public InputReader inputReader;
-    public CinemachineFreeLook freeLookVCam;
+	public CinemachineFreeLook freeLookVCam;
 
- 	[Tooltip("General multiplier for camera sensitivity/speed")]
+	[Tooltip("General multiplier for camera sensitivity/speed")]
 	[Range(1.0f, 20.0f)]
 	[SerializeField] private float cameraSensitivity = 7.0f;
 
